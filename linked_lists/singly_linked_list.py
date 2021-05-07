@@ -1,4 +1,4 @@
-from node import SNode
+from snode import SNode
 
 class SLinkedList:
     """Singly Linked List"""
