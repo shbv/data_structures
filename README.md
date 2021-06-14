@@ -6,13 +6,16 @@
 
 # Non-linear data structures:
 - Graphs: (reference: educative.io)
-		Operation			Adjacency List	    Adjacency Matrix
-		Add Vertex			     O(1)		O(V^2)
-		Remove Vertex			     O(V+E)		O(V^2)
-		Add Edge			     O(1)		O(1)
-		Remove Edge			     O(E)		O(1)
-		Search				     O(V)		O(1)
-		Breadth First Search(BFS)	     O(V+E)		O(V^2)
-		Depth First Search(DFS)		     O(V+E)		O(V^2)	
-- 
+
+
+Operation | Adjacency List | Adjacency Matrix
+---|---|---
+Add Vertex | O(1) | O(V^2)
+Remove Vertex | O(V+E) | O(V^2)
+Add Edge | O(1) | O(1)
+Remove Edge | O(E) | O(1)
+Search | O(V) | O(1)
+Breadth First Search(BFS) | O(V+E) | O(V^2)
+Depth First Search(DFS) | O(V+E) | O(V^2)	
+
  
