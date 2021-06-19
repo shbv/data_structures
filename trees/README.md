@@ -1,4 +1,3 @@
-"""
 Tree components:
     - Nodes/Vertices (n/V)
     - Edges
@@ -43,4 +42,4 @@ Types:
             - 2-child node (1 key): key(left-sub-tree) < key(node) < key(right-sub-tree)
             - 3-child node (2 keys): key(left-sub-tree) < key1(node) < key(mid-sub-tree) < key2(node) < key(right-sub-tree)
         - h < log(n+1). O(logn) insertion/deletion/search.
-"""
+
