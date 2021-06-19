@@ -19,9 +19,9 @@
 	- Perfect: Full & Complete. 
 		- 2^(h+1)-1 nodes (= 2^0 + 2^1 + 2^2 + ...), 2^h leaf nodes.
 	- Complete: All levels are fully filled except maybe last level (filled left to right)
-		- >= (2^h) nodes, <= 2^(h+1)-1 nodes
+		- \>= (2^h) nodes, <= 2^(h+1)-1 nodes
 	- Full/Proper: Every node has 0 or 2 children. No 1 child.  
-		- >= (2h+1) nodes, <= 2^(h+1)-1 nodes. 
+		- \>= (2h+1) nodes, <= 2^(h+1)-1 nodes. 
 	- Skewed: All nodes, except leaf, have only 1 child 
 
 - Binary search tree
