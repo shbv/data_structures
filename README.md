@@ -18,15 +18,15 @@
 
 - Graphs: (reference: educative.io)
 
-Operation | Adjacency List | Adjacency Matrix
----|---|---
-Add Vertex | O(1) | O(V^2)
-Remove Vertex | O(V+E) | O(V^2)
-Add Edge | O(1) | O(1)
-Remove Edge | O(E) | O(1)
-Search | O(V) | O(1)
-Breadth First Search(BFS) | O(V+E) | O(V^2)
-Depth First Search(DFS) | O(V+E) | O(V^2)	
+	Operation | Adjacency List | Adjacency Matrix
+	---|---|---
+	Add Vertex | O(1) | O(V^2)
+	Remove Vertex | O(V+E) | O(V^2)
+	Add Edge | O(1) | O(1)
+	Remove Edge | O(E) | O(1)
+	Search | O(V) | O(1)
+	Breadth First Search(BFS) | O(V+E) | O(V^2)
+	Depth First Search(DFS) | O(V+E) | O(V^2)	
 
 - Trees: (useful for ordered data)
 	- BST: O(logn) avg case, O(n) worst case 
@@ -34,3 +34,7 @@ Depth First Search(DFS) | O(V+E) | O(V^2)
 
 - Hashtable: (useful for random order data)
 	- O(1) insert/delete/search avg-case  (O(n) worst-case)
+
+- Heap: (complete binary tree with order. useful for priority queues)
+	- O(logn) insert, O(1) extract max/min
+
